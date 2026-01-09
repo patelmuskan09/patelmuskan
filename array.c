@@ -17,5 +17,5 @@ int main(){
 /*#include <stdio.h>
 int main(){
     int arr[5]={1,2,4};
-    printf("%d", arr[3]);
+    printf("%d", arr[2]);
 }*/
