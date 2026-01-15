@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyWebsite</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+
+        }
+
+        /* Top black bar */
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            
+        }
+
+        .navbar span {
+            margin-right: 15px;
+        }
+
+        /* Card container */
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px gray;
+            
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+        }
+
+        .offline {
+            color: red;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 10px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <span><b>MyWebsite</b></span>
+        <span>Home | About | Contact</span>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="status">ONLINE</div>
+        <div class="name">Rahul</div>
+        <p>Web Developer<br>Builds modern websites using HTML & CSS.</p>
+        <a href="#" class="button">View Profile</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="status offline">OFFLINE</div>
+        <div class="name">Neha</div>
+        <p>UI Designer<br>Designs clean and user-friendly interfaces.</p>
+        <a href="#" class="button">View Profile</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="status">ONLINE</div>
+        <div class="name">Aman</div>
+        <p>Backend Developer<br>Works with server logic and databases.</p>
+        <a href="#" class="button">View Profile</a>
+    </div>
+
+</body>
+</html>
